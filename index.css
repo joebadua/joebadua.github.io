@@ -39,10 +39,23 @@ u {
 	margin: 0 auto;
 	max-width: 525px;
 }
+
+#content-about {
+    float: center;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+	margin: 0 auto;
+	max-width: 525px;
+}
  
 #underline {
-    border-bottom: 2px solid #5d8a85;
-    color: black;
+    border-bottom: .1em solid #5d8a85;
+	color: black;
+}
+
+#underline:hover {
+	color: #5d8a85;
 }
 
 .menu {
